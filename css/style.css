@@ -25,8 +25,14 @@
 body {
     background-color: var(--backgroundcolor);
 }
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
 main {
-    width: 800px;
+    max-width: 800px;
+    min-width: 350px;
     margin: auto;
 }
 
@@ -43,7 +49,7 @@ h1 {
 h2 {
     font-family: var(--titlefont);
     text-align: center;
-    color: #eabc54;
+    color: #ee8561;
 }
 
 p#quote {
@@ -51,10 +57,21 @@ p#quote {
     color: #ee8561;
     text-align: right;
     padding: 10px 0px 30px 350px;
+    margin-bottom: 100px;
 }
 
-p {
-    color: var(--fontcolor0);
-    text-align: justify;
-    padding: 0px 50px 10px 50px;
+section {
+    width: 220px;
+    height: 150px;
+    margin: auto 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+section > p {
+    color: #202124;
+    padding: 10px 0px;
+    text-align: center;
 }
