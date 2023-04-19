@@ -31,7 +31,6 @@ body {
 }
 
 main {
-    max-width: 800px;
     min-width: 350px;
     margin: auto;
 }
@@ -48,8 +47,7 @@ h1 {
 
 h2 {
     font-family: var(--titlefont);
-    text-align: center;
-    color: #202124;
+    color: #ad6147;
 }
 
 p#quote {
@@ -61,24 +59,30 @@ p#quote {
 }
 
 section {
+    margin: auto;
+}
+
+section#skills {
+    width: 800px;
+}
+
+div {
     width: 220px;
     height: 150px;
-    margin: auto 10px;
+    margin: auto 15px;
     background-color: #e9dad5;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
     transition: 0.5s;
-    color: #202124;
-    box-shadow: 1px 4px 5px #ee8561;
+    color: #424346;
+    box-shadow: 1px 4px 0px #ee8561;
 }
 
-section > p {
-    color: #202124d1;
-    padding: 10px 0px;
-    text-align: center;
+div > p {
+    padding: 5px;
 }
 
-section:hover {
-    background-color: rgb(246 188 168);
+div:hover {
+    background-color: #ffbea8;
 }
