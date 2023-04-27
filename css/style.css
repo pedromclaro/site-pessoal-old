@@ -109,6 +109,13 @@ div:hover {
     background-color: #ffbea8;
 }
 
+section#tecnologias {
+    text-align: center;
+    color: #1b1c1e;
+}
+
 li {
+    font-size: 3em;
     padding: 10px;
+    display: inline-block;
 }
