@@ -78,11 +78,10 @@ section#skills {
     text-align: center;
     margin: auto;
     padding: 50px;
-
     border-radius: 5px 5px 0px 0px;
 }
 
-div {
+div.resumos {
     text-align: left;
     width: 220px;
     height: 150px;
@@ -94,6 +93,12 @@ div {
     transition: 0.5s;
     color: #424346;
     box-shadow: 3px 3px 0px #ee8561;
+}
+
+div#icons {
+    background-color: var(--backgroundcolor);
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 div > p {
@@ -111,7 +116,6 @@ i.i {
 }
 
 ul {
-    padding-top: 50px;
     list-style-type: none;
 }
 
@@ -123,15 +127,29 @@ li.tech {
 
 section#estudos {
     margin: auto;
-    max-width: 500px;
     background-color: #e9dad5;
     text-align: center;
     padding: 30px;
 }
+div#conteudo {
+    margin: auto;
+    max-width: 500px;
+}
+div#conteudo > p {
+    text-align: justify;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+ul#contato {
+    padding: 5px;
+}
 
 li {
     display: inline-block;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     font-size: 2em;
 }
 
