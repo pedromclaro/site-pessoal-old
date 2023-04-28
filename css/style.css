@@ -107,7 +107,7 @@ div > p {
     font-size: 1em;
 }
 
-div:hover {
+div.resumos:hover {
     background-color: #ffbea8;
 }
 
