@@ -1,18 +1,19 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
 :root {
-    --backgroundcolor: #202124;
+    --backgroundcolor: #2a2827;
     --color0: ;
     --color1: ;
     --color2: ;
 
-    --fontcolor0: whitesmoke;
+    --fontcolor0: #494443;
     --fontcolor1: #ee8561;
     --fontcolor2: #eabc54;
 
-    --defautfont: "Ubuntu", sans-serif;
+    --defautfont: "Poppins", sans-serif;
     --titlefont: "Cousine", monospace;
 }
 
@@ -37,18 +38,16 @@ main {
 }
 
 h1 {
-    font-family: var(--titlefont);
     font-size: 2.5em;
     font-weight: bold;
-    color: #eabc54;
+    color: var(--fontcolor2);
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
 h2 {
-    font-family: var(--titlefont);
-    color: #ad6147;
+    color: var(--fontcolor0);
     font-size: 1.4em;
 }
 
@@ -58,17 +57,20 @@ h2 {
     width: 200px;
     height: 200px;
     margin: auto;
+    border: 1px solid #eabc54;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
 }
 
 section#frase {
     max-width: 500px;
     margin: 20px auto 50px auto;
     text-align: justify;
-    padding: 30px;
+    padding: 20px;
 }
 
 p#quote {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #ee8561;
 }
 
@@ -76,8 +78,8 @@ section#skills {
     text-align: center;
     margin: auto;
     padding: 50px;
-    background-color: #1b1c1e;
-    border-radius: 5px;
+
+    border-radius: 5px 5px 0px 0px;
 }
 
 div {
@@ -91,7 +93,7 @@ div {
     display: inline-block;
     transition: 0.5s;
     color: #424346;
-    box-shadow: 1px 4px 0px #ee8561;
+    box-shadow: 3px 3px 0px #ee8561;
 }
 
 div > a {
@@ -100,8 +102,8 @@ div > a {
     font-weight: normal;
 }
 
-div > a > p {
-    padding: 5px;
+div > p {
+    padding: 6px;
     font-size: 1em;
 }
 
@@ -109,13 +111,36 @@ div:hover {
     background-color: #ffbea8;
 }
 
-section#tecnologias {
+i.i {
+    padding-left: 5px;
+}
+
+ul {
+    padding-top: 50px;
+    list-style-type: none;
+}
+
+li.tech {
+    font-size: 5em;
+    padding: 10px;
+    display: inline-block;
+}
+
+section#estudos {
+    margin: auto;
+    max-width: 500px;
+    background-color: #e9dad5;
     text-align: center;
-    color: #1b1c1e;
+    padding: 30px;
 }
 
 li {
-    font-size: 3em;
-    padding: 10px;
     display: inline-block;
+    padding: 10px;
+    font-size: 2em;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
