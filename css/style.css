@@ -92,7 +92,7 @@ div.resumos {
     display: inline-block;
     transition: 0.5s;
     color: #424346;
-    box-shadow: 3px 3px 0px #ee8561;
+    box-shadow: 4px 4px 0px #ee8561;
 }
 
 div#icons {
