@@ -51,6 +51,13 @@ h2 {
     font-size: 1.4em;
 }
 
+section#apresentacao {
+    text-align: center;
+    background-color: #242221;
+    padding: 15px;
+    margin: auto auto 55px auto;
+}
+
 #img {
     background-image: url(../img/foto-perfil.png);
     background-size: cover;
@@ -62,7 +69,7 @@ h2 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
 }
 
-section#frase {
+#frase {
     max-width: 500px;
     margin: auto;
     text-align: justify;
@@ -71,13 +78,17 @@ section#frase {
 
 p#quote {
     font-size: 1.15em;
+    color: #eabc54;
+}
+
+strong.frase1 {
+    font-weight: normal;
     color: #ee8561;
 }
 
 section#skills {
     text-align: center;
     margin: auto;
-    padding: 50px 50px 0px 50px;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -97,8 +108,8 @@ div.resumos {
 
 div#icons {
     border: 1px solid #ee8561;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     padding: 15px;
     background-color: var(--backgroundcolor);
     text-align: center;
