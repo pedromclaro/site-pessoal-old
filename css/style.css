@@ -62,17 +62,6 @@ h2 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
 }
 
-div#fundo-img-frase {
-    min-width: 350px;
-    max-width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #1f1e1d;
-    padding: 35px;
-    border-radius: 5px;
-}
-
 section#frase {
     max-width: 500px;
     margin: auto;
@@ -88,7 +77,7 @@ p#quote {
 section#skills {
     text-align: center;
     margin: auto;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -107,9 +96,12 @@ div.resumos {
 }
 
 div#icons {
+    border: 1px solid #ee8561;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
     background-color: var(--backgroundcolor);
     text-align: center;
-    padding-bottom: 50px;
 }
 
 div > p {
@@ -150,12 +142,16 @@ div#conteudo > p {
     text-align: justify;
 }
 
+div#conteudo > a > h3:hover {
+    text-decoration: underline;
+}
+
 h3 {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 ul#contato {
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
 }
 
 li {
@@ -167,9 +163,4 @@ li {
 footer {
     padding-top: 50px;
     padding-bottom: 10px;
-}
-
-a > h3,
-i:hover {
-    color: #1f1e1d;
 }
