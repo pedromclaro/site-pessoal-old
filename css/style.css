@@ -55,7 +55,8 @@ section#apresentacao {
     text-align: center;
     background-color: #242221;
     padding: 15px;
-    margin: auto auto 55px auto;
+    margin: 55px auto 55px auto;
+    border-radius: 5px;
 }
 
 #img {
@@ -67,13 +68,15 @@ section#apresentacao {
     border: 1px solid #eabc54;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    margin-top: 20px;
 }
 
 #frase {
     max-width: 500px;
     margin: auto;
     text-align: justify;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 p#quote {
@@ -108,6 +111,7 @@ div.resumos {
 
 div#icons {
     border: 1px solid #ee8561;
+    border-radius: 5px;
     margin-top: 55px;
     margin-bottom: 55px;
     padding: 15px;
@@ -144,6 +148,7 @@ section#estudos {
     background-color: #e9dad5;
     text-align: center;
     padding: 30px;
+    border-radius: 5px;
 }
 div#conteudo {
     margin: auto;
@@ -151,6 +156,8 @@ div#conteudo {
 }
 div#conteudo > p {
     text-align: justify;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
 div#conteudo > a > h3:hover {
