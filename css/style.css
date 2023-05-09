@@ -119,6 +119,15 @@ div#icons {
     text-align: center;
 }
 
+.conteudo {
+    opacity: 0; /* Começa com opacidade 0 */
+    transition: opacity 0.7s ease-in-out; /* Adiciona transição suave */
+}
+
+.conteudo.mostrar {
+    opacity: 1; /* Quando a classe "mostrar" é adicionada, opacidade se torna 1 */
+}
+
 div > p {
     color: #424346;
     padding: 6px;

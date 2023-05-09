@@ -54,9 +54,9 @@
         </ul>
       </div>
 
-      <section id="estudos">
+      <section id="estudos" class="conteudo">
         <div id="conteudo">
-          <p>Com certificação em <strong>HTML 5, CSS3 e Linux</strong>, além de estar em processo de obtenção de certificação em JavaScript, obtidas através da plataforma <strong>Curso em Vídeo</strong> do renomado professor <strong>Gustavo Guanabara</strong>. Estou dedicado a aprimorar minhas habilidades em programação front-end e sistemas Linux. Estas certificações demonstram, pelo menos, meu comprometimento em aprender, desejo em me desenvolver nessas áreas, bem como meu entusiasmo em mergulhar no mundo da tecnologia. Além disso, também possuo certificações em <strong>LGPD e Fundamentos de TI</strong>, obtidas pela plataforma <strong>Fundação Bradesco</strong>.</p>
+          <p>Com certificação em <strong>HTML 5, CSS3 e Linux</strong>, além de estar em processo de obtenção de certificação em JavaScript, obtidas através da plataforma <strong>Curso em Vídeo</strong> do renomado professor <strong>Gustavo Guanabara</strong>. Estou dedicado a aprimorar minhas habilidades em programação front-end e sistemas Linux. Estas certificações demonstram, pelo menos, meu comprometimento em aprender, desejo em me desenvolver nessas áreas, bem como meu entusiasmo em mergulhar no mundo da tecnologia. Além disso, também possuo certificações em <strong>LGPD e Fundamentos de TI</strong>, obtidas pela <strong>Fundação Bradesco</strong>.</p>
           <hr>
           <h3>Contato</h3>
           <ul id="contato">
@@ -78,5 +78,18 @@
   <footer>
     <p style="color: #e9dad5; text-align: center; font-size: 0.8em;">MIT License | Copyright (c) 2023 Pedro Afonso</p>
   </footer>  
+
 </body>
+
+<script>
+  document.addEventListener('scroll', function() {
+var altura = window.innerHeight;
+var distancia = document.querySelector('.conteudo').getBoundingClientRect().top;
+
+if (distancia <= altura * 0.6) {
+  document.querySelector('.conteudo').classList.add('mostrar');
+}
+});
+
+</script>
 </html>
