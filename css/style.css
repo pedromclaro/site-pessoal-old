@@ -188,6 +188,10 @@ li {
     font-size: 3em;
 }
 
+li#linkcontato {
+    cursor: pointer;
+}
+
 footer {
     padding-top: 50px;
     padding-bottom: 10px;
