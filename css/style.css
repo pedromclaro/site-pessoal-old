@@ -52,6 +52,7 @@ h2 {
 }
 
 section#apresentacao {
+    background-image: url(../archives/background-apresentacao.png);
     text-align: center;
     background-color: #242221;
     padding: 15px;
