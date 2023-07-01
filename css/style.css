@@ -32,6 +32,23 @@ body {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
+nav {
+    margin: auto;
+    background-color: #242221;
+    text-align: center;
+    color: #e9dad5
+}
+
+li.menu {
+    font-size: 1.16em;
+    padding: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+li.menu >a:hover {
+    color: rgb(170, 159, 155);
+}
+
 main {
     min-width: 350px;
     max-width: 900px;
@@ -54,6 +71,7 @@ h2 {
 
 a {
     color: #e9dad5;
+    text-decoration: none;
 }
 
 section#apresentacao {
@@ -199,6 +217,8 @@ li#linkcontato {
 }
 
 footer {
-    padding-top: 50px;
-    padding-bottom: 10px;
+    background-color: #242221;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 1.2em;
 }
