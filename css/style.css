@@ -42,8 +42,8 @@ nav {
 li.menu {
     font-size: 1.16em;
     padding: 10px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 li.menu >a:hover {
     color: rgb(170, 159, 155);
