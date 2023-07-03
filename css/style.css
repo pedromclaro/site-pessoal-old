@@ -20,16 +20,27 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: var(--defautfont);
     user-select: none;
 }
 
 body {
     background-color: var(--backgroundcolor);
+    font-family: var(--defautfont);
 }
 
 .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+div#alerta {
+    margin-top: 15px;
+    text-align: center;
+}
+
+div#alerta > p {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #eabc54;
 }
 
 nav {
@@ -160,10 +171,6 @@ div > p {
 
 div.resumos:hover {
     background-color: #ffbea8;
-}
-
-i.i {
-    padding-left: 5px;
 }
 
 ul {
