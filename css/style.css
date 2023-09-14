@@ -189,6 +189,7 @@ section#estudos {
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    box-shadow: 4px 4px 0px #eabc54;
 }
 div#conteudo {
     margin: auto;
