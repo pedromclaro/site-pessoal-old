@@ -47,7 +47,7 @@ nav {
     margin: auto;
     background-color: #242221;
     text-align: center;
-    color: #e9dad5
+    color: #e9dad5;
 }
 
 li.menu {
@@ -145,7 +145,7 @@ div.resumos {
     box-shadow: 4px 4px 0px #ee8561;
 }
 
-div#icons {
+section#projects {
     border: 1px solid #ee8561;
     border-radius: 5px;
     margin-top: 55px;
@@ -153,6 +153,12 @@ div#icons {
     padding: 15px;
     background-color: var(--backgroundcolor);
     text-align: center;
+    color: #e9dad5;
+}
+
+div#linux-iniciantes {
+    max-width: 500px;
+    margin: auto;
 }
 
 .conteudo {
@@ -197,7 +203,7 @@ div#conteudo {
     max-width: 500px;
 }
 div#conteudo > p {
-    text-align: justify;
+    text-align: left;
     padding-top: 35px;
     padding-bottom: 30px;
 }
